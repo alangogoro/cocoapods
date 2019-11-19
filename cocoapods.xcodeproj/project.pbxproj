@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		CE405EFB2383A1C600F249E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE405EF92383A1C600F249E1 /* Main.storyboard */; };
 		CE405EFD2383A1C800F249E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE405EFC2383A1C800F249E1 /* Assets.xcassets */; };
 		CE405F002383A1C800F249E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE405EFE2383A1C800F249E1 /* LaunchScreen.storyboard */; };
+		CE405F082383C6C800F249E1 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE405F072383C6C800F249E1 /* SecondStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CE405EFC2383A1C800F249E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE405EFF2383A1C800F249E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE405F012383A1C800F249E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE405F072383C6C800F249E1 /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,6 @@
 				5A5FDBE48FF5E5B7ECFD4C3F /* Pods-cocoapods.debug.xcconfig */,
 				2A9A121B215901D4F08C5836 /* Pods-cocoapods.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +86,7 @@
 				CE405EF52383A1C600F249E1 /* SceneDelegate.swift */,
 				CE405EF72383A1C600F249E1 /* ViewController.swift */,
 				CE405EF92383A1C600F249E1 /* Main.storyboard */,
+				CE405F072383C6C800F249E1 /* SecondStoryboard.storyboard */,
 				CE405EFC2383A1C800F249E1 /* Assets.xcassets */,
 				CE405EFE2383A1C800F249E1 /* LaunchScreen.storyboard */,
 				CE405F012383A1C800F249E1 /* Info.plist */,
@@ -155,6 +157,7 @@
 				CE405F002383A1C800F249E1 /* LaunchScreen.storyboard in Resources */,
 				CE405EFD2383A1C800F249E1 /* Assets.xcassets in Resources */,
 				CE405EFB2383A1C600F249E1 /* Main.storyboard in Resources */,
+				CE405F082383C6C800F249E1 /* SecondStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
